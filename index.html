@@ -6,25 +6,24 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
-
   </head>
   <body>
     <div class="container">
       <h1>Leap Year Checker</h1>
-       <p>We will tell you if the year is a leap year!</p>
-       <form id="leapYear">
+      <p>We will tell you if the year is a leap year!</p>
+      <form id="leapYear">
         <div class ="form-group">
           <label for="yearInput">Enter a year:</label>
           <input id="yearInput" class="form-control" type="text">
         </div>
         <button type="submit" class="btn-danger">Submit!</button>
-       </form>
+      </form>
+      <div id ="leapTrue" class="truth">
+        <p>The year <span class="yearInput"></span><span id="yearInput"> is a leap year!</span></p>
+      </div>
+      <div id="leapFalse" class="wrong">
+        <p>The year <span class="yearInput"></span><span id="yearInput"> is not a leap year!</span></p>
+      </div>
     </div>
-  <div id ="leapTrue" class="truth">
-    <p>The year <span class="yearInput"></span><span id="yearInput"> is a leap year!</span> </p>
-  </div>
-  <div id="leapFalse" class="wrong">
-    <p>The year <span class="yearInput"></span><span id="yearInput"> is not a leap year!</span>  </p>
-  </div>
   </body>
 </html>
