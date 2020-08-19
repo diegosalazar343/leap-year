@@ -6,16 +6,19 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/scripts.js"></script>
+
   </head>
   <body>
     <div class="container">
       <h1>Leap Year</h1>
        <p>A leap year is any year that...</p>
-       <ul>
-         <li>can be divided by 4</li>
-         <li><e>with the exception of being exactly divisible by 100</e></li>
-         <li>unless it can be exactly divided by 400 (such as 2000, 2400)</li>
-       </ul>
+       <form id="leapYear">
+        <div class ="form-group">
+          <label for="yearInput">Enter a year:</label>
+          <input id="yearInput" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn-danger">Submit!</button>
+       </form>
     </div>
   </body>
 </html>
